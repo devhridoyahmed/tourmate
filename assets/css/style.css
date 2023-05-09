@@ -79,8 +79,27 @@ body {
     transform: translate(0, -1rem);
     -webkit-box-reflect: below -2rem -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -127,7 +146,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -136,7 +154,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: orchid;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
