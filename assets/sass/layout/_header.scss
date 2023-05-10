@@ -8,8 +8,8 @@
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 60vw 90vh, 40vw 90vh, 0 100%);
-
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60vw 85vh, 40vw 85vh, 0 100%);
+    
     &__logo-box {
         position: absolute;
         top: 4rem;
