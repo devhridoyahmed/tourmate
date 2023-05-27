@@ -4,7 +4,7 @@
   "description": "Single page landing page for tour agency build with only with SASS code ",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w" 
   },
   "author": "Hridoy Ahemd",
   "license": "ISC",
