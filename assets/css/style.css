@@ -549,6 +549,11 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all .3s; }
+  @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+    .popup {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(0, 0, 0, 0.2); } }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -913,7 +918,7 @@ body {
       padding: 16rem 0 20rem 0; } }
   @media (max-width: 37.5em) {
     .section-about {
-      padding: 20rem 0 20 rem 0; } }
+      padding: 20rem 0 20rem 0; } }
 
 .section-features {
   padding: 20rem 0;
