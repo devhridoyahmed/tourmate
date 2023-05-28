@@ -11,7 +11,8 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 40% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 40% 90%, 0 100%);
 
-    @include respond(phone) {
+    @include respond(tab-port) {
+        height: 70vh;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 95%, 40% 95%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 95%, 40% 95%, 0 100%);
     }
@@ -20,6 +21,10 @@
         position: absolute;
         top: 4rem;
         left: 4rem;
+        @include respond(tab-port) {
+            top: 4.5rem;
+            left: 4.5rem;
+        }
     }
 
     &__logo {
